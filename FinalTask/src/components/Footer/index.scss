@@ -1,0 +1,11 @@
+@import '../../helpers/variables';
+.footer {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: $footer-background;
+  color: $footer-color;
+  &_content {
+    margin-left: 80px;
+  }
+}

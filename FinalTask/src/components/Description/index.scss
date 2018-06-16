@@ -1,0 +1,32 @@
+.description {
+  flex-grow: 1;
+  flex-basis: 50px;
+  &_title {
+    display: inline-block;
+    margin: 20px 0 10px;
+    color: #f55263;
+    font-size: 30px;
+  }
+  &_raiting {
+    padding: 5px;
+    margin-left: 15px;
+    border: 1px solid #67e08b;
+    border-radius: 50%;
+    color: #67e08b;
+    font-size: 25px;
+  }
+  &_yearAndRuntime {
+    display: inline-block;
+    margin: 20px 20px 20px 0;
+  }
+  &_descrption {
+    margin: 10px 0 20px;
+    color: rgb(197, 197, 197);
+    font-size: 16px;
+  }
+  &_directorAndActors {
+    margin: 10px 0;
+    color: #c5c5c5;
+    font-size: 12px;
+  }
+}

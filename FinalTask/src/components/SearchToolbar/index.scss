@@ -1,0 +1,84 @@
+.searchToolbar {
+  padding: 10px 80px;
+  color: white;
+  &-background-opacity {
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  &-background-url {
+    height: 220px;
+    background-image: url(../../img/headerImg.jpg);
+    background-position: center;
+  }
+  &_netflix {
+    margin: 5px 0 40px;
+    color: #f55263;
+  }
+  &_title {
+    text-transform: uppercase;
+  }
+  &_input {
+    height: 45px;
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px solid #f55263;
+    margin: 15px 0;
+    background: black;
+    font-size: 15px;
+    color: white;
+    outline: none;
+  }
+  &_arrow {
+    position: absolute;
+    top: 115px;
+    right: 100px;
+    height: 20px;
+    width: 20px;
+  }
+  &_toggleTitle {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  &_toggle {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #3c3c3c;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    &__activ {
+      background: #f55263;
+    }
+  }
+  &_buttonSearch {
+    position: absolute;
+    right: 80px;
+    padding: 5px 50px;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    background: #f55263;
+    outline: none;
+    cursor: pointer;    
+  }
+  &_favoritLink {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    padding: 5px 30px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background: #f55263;
+  }
+}

@@ -1,0 +1,17 @@
+.foundMovies {
+  min-height: calc(100vh - 220px - 50px - 50px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  &_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 960px;
+  }
+  &_noFound {
+    align-self: center;
+    font-size: 50px;
+    color: #d3d3d3;
+  }
+}
